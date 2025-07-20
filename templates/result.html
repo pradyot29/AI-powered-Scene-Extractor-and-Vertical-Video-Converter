@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result - VideoDB Vertical Clip Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 Your Vertical Clip is Ready!</h1>
+        
+        <div class="result-info">
+            <p><strong>Processing Status:</strong> {{ status }}</p>
+            <p><strong>Scene Found:</strong> {{ 'Yes' if found_scene else 'Not (using default clip)' }}</p>
+        </div>
+        
+        <div class="video-preview">
+            <video controls width="300" height="500">
+                <source src="{{ video_url }}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        
+        <div class="actions">
+            <a href="{{ download_url }}" class="btn btn-primary">📥 Download Video</a>
+            <a href="{{ url_for('index') }}" class="btn btn-secondary">🔄 Process Another</a>
+        </div>
+    </div>
+</body>
+</html>

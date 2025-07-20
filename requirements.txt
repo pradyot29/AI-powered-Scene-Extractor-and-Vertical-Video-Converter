@@ -1,0 +1,6 @@
+videodb
+flask
+python-dotenv
+opencv-python
+moviepy
+requests

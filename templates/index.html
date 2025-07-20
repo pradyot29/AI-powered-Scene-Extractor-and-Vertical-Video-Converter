@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VideoDB Vertical Clip Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>📱 Vertical Short Clip Generator</h1>
+        <p>Convert any video to vertical format and extract specific scenes with AI</p>
+        
+        <div class="form-container">
+            <form id="videoForm">
+                <div class="input-group">
+                    <label for="video_source">Video Source (YouTube URL or File Path):</label>
+                    <input type="text" id="video_source" name="video_source" 
+                           placeholder="https://www.youtube.com/watch?v=..." required>
+                </div>
+                
+                <div class="input-group">
+                    <label for="query">Scene Query (optional):</label>
+                    <input type="text" id="query" name="query" 
+                           placeholder="e.g., 'person talking', 'car chase scene', 'sunset'">
+                    <small>Leave empty to get first 30 seconds</small>
+                </div>
+                
+                <button type="submit" id="submitBtn">🎬 Generate Vertical Clip</button>
+            </form>
+        </div>
+        
+        <div id="progressContainer" class="hidden">
+            <div class="progress-bar">
+                <div id="progressBar" class="progress-fill"></div>
+            </div>
+            <p id="progressText">Processing...</p>
+        </div>
+        
+        <div id="resultContainer" class="hidden">
+            <h2>✅ Processing Complete!</h2>
+            <div id="resultInfo"></div>
+            <div class="result-actions">
+                <button id="downloadBtn">📥 Download Vertical Video</button>
+                <button id="newVideoBtn">🔄 Process Another Video</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
