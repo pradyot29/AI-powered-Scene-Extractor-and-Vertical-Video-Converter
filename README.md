@@ -76,6 +76,7 @@ Vertical Conversion – Smart crop & resize to 9:16 format (1080x1920)
 
 Download – One-click export in MP4 format
 
+---
 
 ## 💻 Example Usage
 ```bash
@@ -87,11 +88,11 @@ Scene Query: "person singing" (optional)
 
 
 Progress:
--⏳ Uploading video (20%)
--🔍 Indexing scenes (40%)
--🎯 Searching for query (60%)
--🎬 Generating stream (80%)
--📱 Converting to vertical (100%)
+⏳ Uploading video (20%)
+🔍 Indexing scenes (40%)
+🎯 Searching for query (60%)
+🎬 Generating stream (80%)
+📱 Converting to vertical (100%)
 
 Done! Download your vertical clip 🎉
 
@@ -118,35 +119,45 @@ stream_url = video.generate_stream(timeline=[[start, end]])
 
 ## 🎯 Use Cases
 Content Creators – Repurpose long-form YouTube videos
+
 Social Media Managers – Instantly generate reels/shorts
+
 Video Editors – Automate time-consuming tasks
+
 Marketing Teams – Create promo clips from demo videos
+
 Educators – Extract key lecture moments
 
 --- 
 
 ## 🧪 Future Enhancements
--✅ Batch video support
--✅ Support for other aspect ratios (1:1, 4:5)
--✅ Custom filters and effects
--⏳ Direct social media upload
--⏳ Adjustable video quality settings
+✅ Batch video support
+
+✅ Support for other aspect ratios (1:1, 4:5)
+
+✅ Custom filters and effects
+
+⏳ Direct social media upload
+
+⏳ Adjustable video quality settings
 
 ---
 
 ## 🤝 Contributing
--Fork the repository
--Create a new branch (git checkout -b feature/YourFeature)
--Commit your changes (git commit -m 'Add feature')
--Push to the branch (git push origin feature/YourFeature)
--Open a Pull Request 🙌
+Fork the repository
+Create a new branch (git checkout -b feature/YourFeature)
+Commit your changes (git commit -m 'Add feature')
+Push to the branch (git push origin feature/YourFeature)
+Open a Pull Request 🙌
 
 ---
 
 ## 🙏 Acknowledgments
--VideoDB for powerful video processing APIs
--MoviePy for video manipulation
--Flask for the web framework
+VideoDB for powerful video processing APIs
+
+MoviePy for video manipulation
+
+Flask for the web framework
 
 ---
 
