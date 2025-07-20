@@ -59,7 +59,8 @@ Visit http://localhost:5000 in your browser.
 
 ## 🏗️ Project Structure
 
-<pre> ```bash AI-powered-Scene-Extractor-and-Vertical-Video-Converter/ ├── app.py # Flask app entry point ├── config.py # Configurations ├── video_processor.py # VideoDB API integration logic ├── vertical_converter.py # Smart cropping & conversion ├── requirements.txt # Dependencies ├── templates/ │ └── index.html # Web UI ├── static/ │ ├── style.css # Styling │ └── script.js # JS logic ├── .env.example # Env variable template ├── .gitignore # Ignore sensitive files └── README.md # You’re reading it! ``` </pre>
+<img width="1018" height="511" alt="image" src="https://github.com/user-attachments/assets/acef974e-d3b5-47b7-b65b-e3cafe7df857" />
+
 
 ---
 
