@@ -66,11 +66,15 @@ Visit http://localhost:5000 in your browser.
 
 ## 💡 How It Works
 
--Input Video – Enter a YouTube URL or upload a local file
--Scene Analysis – AI indexes and finds relevant moments using semantic search
--Fallback – If no scene matches, default to the first 30 seconds
--Vertical Conversion – Smart crop & resize to 9:16 format (1080x1920)
--Download – One-click export in MP4 format
+Input Video – Enter a YouTube URL or upload a local file
+
+Scene Analysis – AI indexes and finds relevant moments using semantic search
+
+Fallback – If no scene matches, default to the first 30 seconds
+
+Vertical Conversion – Smart crop & resize to 9:16 format (1080x1920)
+
+Download – One-click export in MP4 format
 
 
 ## 💻 Example Usage
