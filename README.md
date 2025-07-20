@@ -89,9 +89,13 @@ Scene Query: "person singing" (optional)
 
 Progress:
 ⏳ Uploading video (20%)
+
 🔍 Indexing scenes (40%)
+
 🎯 Searching for query (60%)
+
 🎬 Generating stream (80%)
+
 📱 Converting to vertical (100%)
 
 Done! Download your vertical clip 🎉
@@ -163,5 +167,6 @@ Flask for the web framework
 
 <div align="center">
 Made with ❤️ by Pradyot for content creators worldwide
+
 📱 Turn any video into scroll-stopping vertical gold ✨
 </div>
