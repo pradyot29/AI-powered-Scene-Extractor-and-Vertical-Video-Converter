@@ -25,6 +25,7 @@ An intelligent web application that automatically converts horizontal videos int
 - [FFmpeg](https://ffmpeg.org/) installed and added to PATH
 - VideoDB API Key – Get one from [VideoDB](https://videodb.io)  
 
+---
 ### 🛠 Installation
 
 ```bash
@@ -32,6 +33,8 @@ git clone https://github.com/pradyot29/AI-powered-Scene-Extractor-and-Vertical-V
 cd AI-powered-Scene-Extractor-and-Vertical-Video-Converter
 pip install -r requirements.txt
 ```
+---
+
 ## 🔐 Environment Setup
 Create a .env file in the root directory:
 
@@ -52,6 +55,8 @@ python app.py
 ```
 Visit http://localhost:5000 in your browser.
 
+---
+
 ## 🏗️ Project Structure
 
 AI-powered-Scene-Extractor-and-Vertical-Video-Converter/
@@ -69,6 +74,7 @@ AI-powered-Scene-Extractor-and-Vertical-Video-Converter/
 ├── .gitignore             # Ignore sensitive files
 └── README.md              # You’re reading it!
 
+---
 
 ## 💡 How It Works
 
@@ -79,13 +85,14 @@ Vertical Conversion – Smart crop & resize to 9:16 format (1080x1920)
 Download – One-click export in MP4 format
 
 
-#💻 Example Usage
+## 💻 Example Usage
 ```bash
 python app.py
 ```
 Enter:
 Video Source: https://www.youtube.com/watch?v=dQw4w9WgXcQ
 Scene Query: "person singing" (optional)
+
 
 Progress:
 ⏳ Uploading video (20%)
@@ -96,7 +103,9 @@ Progress:
 
 Done! Download your vertical clip 🎉
 
-# 🔌 API Example (VideoDB)
+---
+
+##  🔌 API Example (VideoDB)
 ```bash
 from videodb import connect, SearchType, SceneExtractionType
 
@@ -113,12 +122,16 @@ index_id = video.index_scenes(
 results = video.search(query="person talking", search_type=SearchType.semantic)
 stream_url = video.generate_stream(timeline=[[start, end]])
 ```
+--- 
+
 ## 🎯 Use Cases
 Content Creators – Repurpose long-form YouTube videos
 Social Media Managers – Instantly generate reels/shorts
 Video Editors – Automate time-consuming tasks
 Marketing Teams – Create promo clips from demo videos
 Educators – Extract key lecture moments
+
+--- 
 
 ## 🧪 Future Enhancements
 ✅ Batch video support
@@ -127,6 +140,8 @@ Educators – Extract key lecture moments
 ⏳ Direct social media upload
 ⏳ Adjustable video quality settings
 
+---
+
 ## 🤝 Contributing
 Fork the repository
 Create a new branch (git checkout -b feature/YourFeature)
@@ -134,12 +149,16 @@ Commit your changes (git commit -m 'Add feature')
 Push to the branch (git push origin feature/YourFeature)
 Open a Pull Request 🙌
 
-🙏 Acknowledgments
+---
+
+## 🙏 Acknowledgments
 VideoDB for powerful video processing APIs
 MoviePy for video manipulation
 Flask for the web framework
 
+---
+
 <div align="center">
 Made with ❤️ by Pradyot for content creators worldwide
 📱 Turn any video into scroll-stopping vertical gold ✨
-</div> ```
+</div>
